@@ -16,3 +16,16 @@ console
 console.log(typeof age);number
 console.log(typeof undefined);//undefined ,it is a datatype
 console.log(typeof null);//object
+// data-types conversion
+
+let score = 30
+// console.log(typeof score);
+
+score = "30"
+// console.log(typeof score);   
+
+let value = Number(score)
+// console.log(typeof value);
+
+value = Number("30abc")
+console.log(typeof value);
