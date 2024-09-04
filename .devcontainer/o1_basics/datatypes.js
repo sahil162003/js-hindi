@@ -22,5 +22,5 @@ const bigNumber = 3173941743900984899n
 const heros = ["shaktiman","naaraj","dogs"];
 let myobj = {
     name :"hitesh",
-    age :22
+    age :22,
 }
