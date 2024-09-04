@@ -24,3 +24,7 @@ let myobj = {
     name :"hitesh",
     age :22,
 }
+const myFunction = function(){
+    console.log("hello world");
+}
+console.log(typeof heros)
