@@ -28,3 +28,24 @@ const myFunction = function(){
     console.log("hello world");
 }
 console.log(typeof heros)
+//**** stack(primitive(copies)),heap(non-primitive(reference))
+let myname = "sahil"
+let me = myname
+me = "chalke"
+console.log(myname)
+let userone ={
+    email:"sahi;@gmail.com",
+    id:501,
+}
+
+let usertwo = {
+    email:"aniket@gmail.com",
+    id:501,
+}
+usertwo.email = "sudhir@gmail.com"
+usertwo.email = userone.email
+userone.email = "xyz@gmail.com"
+usertwo.email = userone.email
+
+console.log(usertwo.email)
+
